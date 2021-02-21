@@ -1,0 +1,1 @@
+This page displays the date and time for the user to see on the screen.
