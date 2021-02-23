@@ -49,31 +49,31 @@ $(document).ready(function() {
 		// First set of if and else if statements assign a string value to the previous variables
 		// Since, when retrieved, they are as integers rather than words
 		// 1 is Sunday, 2 is Monday, etc.
-		if (day = 1) {
+		if (day == 0) {
 			day = "Sunday";
 		}
 
-		else if (day = 2) {
+		else if (day == 1) {
 			day = "Monday";
 		}
 
-		else if (day = 3) {
+		else if (day == 2) {
 			day = "Tuesday";
 		}
 
-		else if (day = 4) {
+		else if (day == 3) {
 			day = "Wednesday";
 		}
 
-		else if (day = 5) {
+		else if (day == 4) {
 			day = "Thursday";
 		}
 
-		else if (day = 6) {
+		else if (day == 5) {
 			day = "Friday";
 		}
 
-		else if (day = 7) {
+		else if (day == 6) {
 			day = "Saturday";
 		}
 
@@ -86,51 +86,51 @@ $(document).ready(function() {
 		// This set of if and else if statements assign a string value to the month variable
 		// Since, when retrieved, they are as integers rather than words
 		// 0 is January, 1 is February, etc. until 11 is December
-		if (month = 0) {
+		if (month == 0) {
 			month = "January";
 		}
 
-		else if (month = 1) {
+		else if (month == 1) {
 			month = "February";
 		}
 
-		else if (month = 2) {
+		else if (month == 2) {
 			month = "March";
 		}
 
-		else if (month = 3) {
+		else if (month == 3) {
 			month = "April";
 		}
 
-		else if (month = 4) {
+		else if (month == 4) {
 			month = "May";
 		}
 
-		else if (month = 5) {
+		else if (month == 5) {
 			month = "June";
 		}
 
-		else if (month = 6) {
+		else if (month == 6) {
 			month = "July";
 		}
 
-		else if (month = 7) {
+		else if (month == 7) {
 			month = "August";
 		}
 
-		else if (month = 8) {
+		else if (month == 8) {
 			month = "September";
 		}
 
-		else if (month = 9) {
+		else if (month == 9) {
 			month = "October";
 		}
 
-		else if (month = 10) {
+		else if (month == 10) {
 			month = "November";
 		}
 
-		else if (month = 11) {
+		else if (month == 11) {
 			month = "December";
 		}
 
